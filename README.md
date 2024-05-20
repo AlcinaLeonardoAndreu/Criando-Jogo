@@ -1,1 +1,28 @@
-# Criando-Jogo
+<DOCTYPE html> 
+<html> lang="pt-br">
+<head>
+  <tittle>Introdução ao Canvas</tittle>
+  <link href="https://fonts.googleapis.com/css?family=roboto|Sirin=Stencil" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="text/javascript">
+    function draw(){
+      var canvas = document.getElementById('meuCanvas');
+      if (canvas.getContext){
+        var cntxt = canvas.get.Context('2d');
+        cntxt.fillstyle = "rgb(200, 120, 100)";
+        cntxt.fillrect = (25, 30, 55, 50);
+        cntxt.strokeRect(25, 30, 55, 50);
+        cntxt.clearRect(25, 30, 45, 40);
+        cntxt.fillstyle = "rgba (25, 120, 200, 0.5)";
+        cntxt.fillRect (45, 40, 55, 50);
+        cntxt.strokeRect(65, 50, 55, 50);
+      }
+    }
+  </script>
+</head>
+<body onload="draw();">
+<canvas id="meuCanvas" width="600" height="400" style="border:1px solid #000000; ></canvas>
+  </body>
+  </html>
