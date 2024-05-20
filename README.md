@@ -1,5 +1,5 @@
 <DOCTYPE html> 
-<html> lang="pt-br">
+<html lang="pt-br">
 <head>
   <tittle>Introdução ao Canvas</tittle>
   <link href="https://fonts.googleapis.com/css?family=roboto|Sirin=Stencil" rel="stylesheet">
